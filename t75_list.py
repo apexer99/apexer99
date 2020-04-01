@@ -35,10 +35,9 @@ iterable3 = "1234"
 print(list(itertools.product(iterable1, iterable2, iterable3)))
 
 
-
 import hashlib
 
-str1 = "이름"
+str1 = "김강주"
 str2 = "생일7월28일"
 
 result = hashlib.sha256(str1.encode())
